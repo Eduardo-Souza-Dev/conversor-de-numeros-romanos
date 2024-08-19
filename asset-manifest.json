@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/static/css/main.35dc79d2.css",
+    "main.js": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/static/js/main.90c309be.js",
+    "static/js/453.a3e66548.chunk.js": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/static/js/453.a3e66548.chunk.js",
+    "index.html": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/index.html",
+    "main.35dc79d2.css.map": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/static/css/main.35dc79d2.css.map",
+    "main.90c309be.js.map": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/static/js/main.90c309be.js.map",
+    "453.a3e66548.chunk.js.map": "//eduardo-souza-dev.github.io/conversor-de-numeros-romanos/static/js/453.a3e66548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35dc79d2.css",
+    "static/js/main.90c309be.js"
+  ]
+}
