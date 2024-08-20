@@ -30,10 +30,10 @@
   font-style: normal;
   font-size: 20px;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  flex-direction: column; /* Se você quiser que os elementos estejam empilhados verticalmente */
-  height: 100%; /* Garante que o conteúdo ocupe toda a altura da tela */
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  height: 100%; 
 }
 /* Componentes */
 
@@ -102,4 +102,39 @@ h1{
   animation:inherit 0.5s ease-in-out;
   transition: 0.5s;
   transform: translateY(-8px);
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 600px) {
+  .inputs {
+    width: 100%; 
+    margin: 20px 0; 
+  }
+
+  .card {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 10px 10px 0 #000;
+    margin-bottom: 50px;
+    height: auto; 
+  }
+
+  #separator {
+    position: static; 
+    margin: 0 10px; 
+  }
+
+  .iconSpan {
+    font-size: 40px; 
+    top: 10px;
+  }
+
+  .buttonSpan {
+    transform: none;
+  }
+
+  .App-body {
+    font-size: 16px;
+    padding: 20px;
+  }
 }
