@@ -21,21 +21,20 @@
   font-family: "Bree Serif", serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 20px;
 }
 
-.App-body{
+.App-body {
   font-family: "Bree Serif", serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  flex-direction: column; 
-  height: 100%; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
 }
-/* Componentes */
 
 .inputs {
   font-family: "Bree Serif", serif;
@@ -46,7 +45,7 @@
   background: none;
   padding: 1rem;
   color: black;
-  width:80px;
+  width: 80px;
   outline: none;
   margin: 40px;
   background: #fff;
@@ -63,7 +62,6 @@
   box-shadow: 15px 15px 0 #000;
   color: #000;
   position: relative;
-  overflow: hidden;
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
@@ -72,16 +70,16 @@
   height: 100px;
 }
 
-#separator{
+#separator {
   position: absolute;
   left: 170px;
 }
 
-h1{
+h1 {
   color: #000;
 }
 
-.iconSpan{
+.iconSpan {
   font-size: 50px;
   color: #fff;
   position: relative;
@@ -89,52 +87,51 @@ h1{
   filter: drop-shadow(5px 5px 0px #000000);
 }
 
-.buttonSpan{
+.buttonSpan {
   cursor: pointer;
   outline: none;
   background-color: transparent !important;
-  animation:inherit 0.5s ease-in-out;
+  animation: inherit 0.5s ease-in-out;
   border: none !important;
   transition: 0.5s;
 }
 
-.buttonSpan:hover{
-  animation:inherit 0.5s ease-in-out;
+.buttonSpan:hover {
+  animation: inherit 0.5s ease-in-out;
   transition: 0.5s;
   transform: translateY(-8px);
 }
 
-/* Responsividade para smartphones */
 @media (max-width: 600px) {
   .inputs {
-    width: 100%; 
-    margin: 20px 0; 
+    width: 80%;
+    margin: 20px 0;
   }
 
   .card {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     box-shadow: 10px 10px 0 #000;
     margin-bottom: 50px;
-    height: auto; 
+    height: auto;
   }
 
   #separator {
-    position: static; 
-    margin: 0 10px; 
+    position: static;
+    margin: 0 5px;
   }
 
   .iconSpan {
-    font-size: 40px; 
+    font-size: 40px;
     top: 10px;
   }
 
-  .buttonSpan {
-    transform: none;
+  .App-header {
+    font-size: calc(8px + 2vmin);
   }
 
   .App-body {
     font-size: 16px;
-    padding: 20px;
+    padding: 10px;
   }
 }
