@@ -13,7 +13,7 @@ Este projeto é uma aplicação que converte números algébricos (números norm
 - **JavaScript/TypeScript**: Lógica de conversão e manipulação de dados.
 - **React**: Framework utilizado para construir a interface do usuário.
 - **Git**: Controle de versão para gerenciar o código.
-- **Jest**: Para testes unitários, basta executar dentro do diretório __tests__ o comando npm test
+- **Jest**: Para testes unitários, basta executar dentro do diretório __tests__ o comando "npm test"
 
 ## Como Usar
 
@@ -24,3 +24,8 @@ Este projeto é uma aplicação que converte números algébricos (números norm
    cd nome-do-repositorio
    npm install
    npm start
+
+2. Para acessar diretamente o projeto:
+
+   ```
+   https://eduardo-souza-dev.github.io/conversor-de-numeros-romanos/
